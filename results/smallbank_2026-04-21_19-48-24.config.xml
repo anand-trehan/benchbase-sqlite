@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+  <isolation>TRANSACTION_SERIALIZABLE</isolation>
+  <batchsize>32</batchsize>
+  <brokers>
+    <broker>
+      <host>localhost</host>
+      <port>8080</port>
+    </broker>
+    <broker>
+      <host>localhost</host>
+      <port>8081</port>
+    </broker>
+  </brokers>
+  <scalefactor>1</scalefactor>
+  <loaderThreads>10</loaderThreads>
+  <terminals>4</terminals>
+  <works>
+    <work>
+      <time>60</time>
+      <rate>2000</rate>
+      <weights>15,15,15,25,15,15</weights>
+    </work>
+  </works>
+  <transactiontypes>
+    <transactiontype>
+      <name>Amalgamate</name>
+    </transactiontype>
+    <transactiontype>
+      <name>Balance</name>
+    </transactiontype>
+    <transactiontype>
+      <name>DepositChecking</name>
+    </transactiontype>
+    <transactiontype>
+      <name>SendPayment</name>
+    </transactiontype>
+    <transactiontype>
+      <name>TransactSavings</name>
+    </transactiontype>
+    <transactiontype>
+      <name>WriteCheck</name>
+    </transactiontype>
+  </transactiontypes>
+</configuration>

@@ -1,0 +1,26 @@
+{
+ "Start timestamp (milliseconds)": 1774504149735,
+ "Current Timestamp (milliseconds)": 1774504209908,
+ "Elapsed Time (nanoseconds)": 60004418167,
+ "DBMS Type": "SQLITE",
+ "DBMS Version": null,
+ "Benchmark Type": "smallbank",
+ "Final State": "EXIT",
+ "Measured Requests": 6000,
+ "isolation": "TRANSACTION_SERIALIZABLE",
+ "scalefactor": "1",
+ "terminals": "20",
+ "Latency Distribution": {
+  "95th Percentile Latency (microseconds)": 5592,
+  "Maximum Latency (microseconds)": 176277,
+  "Median Latency (microseconds)": 913,
+  "Minimum Latency (microseconds)": 242,
+  "25th Percentile Latency (microseconds)": 713,
+  "90th Percentile Latency (microseconds)": 1544,
+  "99th Percentile Latency (microseconds)": 34691,
+  "75th Percentile Latency (microseconds)": 1059,
+  "Average Latency (microseconds)": 2126
+ },
+ "Throughput (requests/second)": 99.99263693052117,
+ "Goodput (requests/second)": 100.00930237000959
+}

@@ -1,0 +1,4 @@
+[submodule "badger"]
+	path = badger
+	url = https://github.com/darshand15/badger.git
+	branch = modify_ts
